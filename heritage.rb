@@ -16,7 +16,7 @@ class Chien < Animal
   def parler
     puts "#{nom}: Ouaf!"
   end
-end
+endg
 
 mon_chien = Chien.new ("Bob le chien")
 mon_chat = Chat.new ("Adeline le chat")
